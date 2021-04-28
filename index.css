@@ -1,0 +1,12 @@
+h1 {
+  color:blue;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#result {
+  height: 100px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightgray;
+}
