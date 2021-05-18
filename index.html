@@ -3,40 +3,43 @@
  <head>
    <meta charset="utf-8">
    <link rel="stylesheet" href="index.css">
-   <script src="calculate.js"></script>
    <title>Calculator</title>
  </head>
  <body>
    <h1>Calculator</h1>
    <br>
-   <div id="result"></div>
+   <div id="display"></div>
    <br>
    <table>
     <tr>
-      <td><button type=button>7</button></td>
-      <td><button type=button>8</button></td>
-      <td><button type=button>9</button></td>
-      <td><button type=button>÷</button></td>
+      <td><button id="button7" type=button>7</button></td>
+      <td><button id="button8" type=button>8</button></td>
+      <td><button id="button9" type=button>9</button></td>
+      <td><button id="divine" type=button>÷</button></td>
     </tr>
     <tr>
-      <td><button type=button>4</button></td>
-      <td><button type=button>5</button></td>
-      <td><button type=button>6</button></td>
-      <td><button type=button>×</button></td>
+      <td><button id="button4" type=button>4</button></td>
+      <td><button id="button5" type=button>5</button></td>
+      <td><button id="button6" type=button>6</button></td>
+      <td><button id="multiply" type=button>×</button></td>
     </tr>
     <tr>
-      <td><button type=button>1</button></td>
-      <td><button type=button>2</button></td>
-      <td><button type=button>3</button></td>
-      <td><button type=button>−</button></td>
+      <td><button id="button1" type=button>1</button></td>
+      <td><button id="button2" type=button>2</button></td>
+      <td><button id="button3" type=button>3</button></td>
+      <td><button id="minus" type=button>−</button></td>
     </tr>
     <tr>
-      <td><button type=button>0</button></td>
-      <td><button type=button>.</button></td>
-      <td><button type=button>=</button></td>
-      <td><button type=button>+</button></td>
+      <td><button id="button0" type=button>0</button></td>
+      <td><button id="point" type=button>.</button></td>
+      <td><button id="equal" type=button>=</button></td>
+      <td><button id="plus" type=button>+</button></td>
+    </tr>
+    <tr>
+      <td><button id="clear" type=button>C</button></td>
     </tr>
     </table>
 
+    <script src="calculate.js"></script>
   </body>
 </html>
